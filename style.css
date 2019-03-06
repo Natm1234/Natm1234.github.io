@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #f05670;
+	margin: 0;
+}
+
+nav {
+	background-color: #a358e8;
+	height: 50px;
+	padding-top: 1px;
+	font-size: 16px;
+}
+
+p, h1 {
+	padding-left: 5px;
+}
+
+a {
+	text-decoration: none;
+	color:#525151;
+	font-weight: bold;
+}
+a:hover {
+	color:#0f9ad1;
+	background-color: purple;
+	padding: 3px;
+}
+
+header {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image: url("https://getwalls.io/media/large/2015/05/ombre-colour-fade-large-1094545004.jpg");
+	background-color: #0f9ad1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 24px;
+}
+
+.title {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+span {
+	font-weight: bold;
+}
+
+div {
+	border-top: solid 1px green;
+}
+
+
